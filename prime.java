@@ -3,16 +3,21 @@ class prime
 {
     public static void main(String[] args )
     {
-        int[] num ={2,5,7,350,700,2020};
+        int[] num ={2,5,31,350,700,2020};
         for(int i=0;i<6;i++)
         {
-            for(int j=2;j<num[i];i++)
+            int j=1;
+            while (j!=num[i])
             {
-                if (num[i]%j==0)
-                    System.out.println("\n"+num[i]+" is not a prime number");
-                else
-                    System.out.println("\n"+num[i]+" is a prime number");
-            }
+                if (num[i]%j==0 && j!=1)
+                {
+                    System.out.println(num[i]+" is not a prime number");
+                    break;
+                }
+                if (num[i]==j+1)
+                    System.out.println(num[i]+" is a prime number");
+                j+=1;
+            } 
         }
     }   
 }
