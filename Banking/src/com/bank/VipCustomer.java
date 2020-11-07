@@ -1,9 +1,9 @@
 package com.bank;
 
 public class VipCustomer {
-    String name;
-    int creditLimit;
-    String eMail;
+    private String name;
+    private int creditLimit;
+    private String eMail;
     public VipCustomer(){
         this("Default",10000,"Default");
         System.out.println("Empty Constructor");

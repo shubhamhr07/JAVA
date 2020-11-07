@@ -29,21 +29,21 @@ public class Main {
                     int n = s.nextInt();
                     if (n==1){
                         VipCustomer vip1 = new VipCustomer();
-                        System.out.println("name         = " + vip1.name);
-                        System.out.println("Credit Limit = " + vip1.creditLimit);
-                        System.out.println("E-mail       = " + vip1.eMail);
+                        System.out.println("name         = " + vip1.getName());
+                        System.out.println("Credit Limit = " + vip1.getCreditLimit());
+                        System.out.println("E-mail       = " + vip1.getEail());
                     }
                     else if(n==2){
                         VipCustomer vip1 = new VipCustomer("shubham",50000);
-                        System.out.println("name         = " + vip1.name);
-                        System.out.println("Credit Limit = " + vip1.creditLimit);
-                        System.out.println("E-mail       = " + vip1.eMail);
+                        System.out.println("name         = " + vip1.getName());
+                        System.out.println("Credit Limit = " + vip1.getCreditLimit());
+                        System.out.println("E-mail       = " + vip1.getEail());
                     }
                     else if(n==3) {
                         VipCustomer vip1 = new VipCustomer("shubham", 50000, "Shubhamhr07@gmail.com");
-                        System.out.println("name         = " + vip1.name);
-                        System.out.println("Credit Limit = " + vip1.creditLimit);
-                        System.out.println("E-mail       = " + vip1.eMail);
+                        System.out.println("name         = " + vip1.getName());
+                        System.out.println("Credit Limit = " + vip1.getCreditLimit());
+                        System.out.println("E-mail       = " + vip1.getEail());
                     }
                     else{
                         System.exit(0);

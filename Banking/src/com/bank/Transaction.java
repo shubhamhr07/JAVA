@@ -7,7 +7,7 @@ public class Transaction {
     private String customerName;
     private String email;
     private String phoneNumber;
-    Scanner s = new Scanner(System.in);
+    Scanner s = new Scanner(System.in);    
 
     public void setAccountData(){
         System.out.println("Enter a new account number:");
