@@ -8,7 +8,6 @@ public class Room {
     private Roof roof1;
     private Lamp lamp;
 
-    lamp()
 
     public Room(Wall wall1, Wall wall2, Wall wall3, Wall wall4, Roof roof1, Lamp lamp) {
         this.wall1 = wall1;
@@ -17,5 +16,29 @@ public class Room {
         this.wall4 = wall4;
         this.roof1 = roof1;
         this.lamp = lamp;
+    }
+
+    public Wall getWall1() {
+        return wall1;
+    }
+
+    public Wall getWall2() {
+        return wall2;
+    }
+
+    public Wall getWall3() {
+        return wall3;
+    }
+
+    public Wall getWall4() {
+        return wall4;
+    }
+
+    public Roof getRoof1() {
+        return roof1;
+    }
+
+    public Lamp getLamp() {
+        return lamp;
     }
 }
