@@ -1,5 +1,4 @@
 package billsBurgers;
-import java.util.Scanner;
 
 public class Hamburger {
     private int basePrice;
@@ -20,8 +19,6 @@ public class Hamburger {
         this.bread = bread;
         this.meat = meat;
     }
-
-    Scanner s = new Scanner(System.in);
 
     public void getAddOn1(String name, int price) {
         this.addOn1 = name;

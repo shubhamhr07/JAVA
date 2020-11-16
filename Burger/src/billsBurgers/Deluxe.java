@@ -1,5 +1,6 @@
 package billsBurgers;
 
+
 public class Deluxe extends Hamburger{
     public Deluxe(String bread, String meat) {
         super(bread, meat);
